@@ -1,0 +1,27 @@
+{
+  "name": "chatgpt-nodejs",
+  "version": "1.0.0",
+  "description": "No description",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Chat",
+    "Main",
+    "AI"
+  ],
+  "author": "Hector Avalos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.23.0",
+    "readline-async": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
